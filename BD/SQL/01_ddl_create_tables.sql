@@ -1,16 +1,13 @@
--- =====================================
+
 -- SCRIPT DDL – CRIAÇÃO DAS TABELAS
 -- Projeto: Sistema de Vendas (E-commerce)
 -- Banco: PostgreSQL
--- =====================================
 
--- TABELA: Cliente (generalização para PF e PJ)
 CREATE TABLE Cliente (
     ID_Cliente SERIAL PRIMARY KEY,
-    Tipo_Cliente VARCHAR(10) NOT NULL -- 'Física' ou 'Jurídica'
+    Tipo_Cliente VARCHAR(10) NOT NULL -- Física ou Jurídica
 );
 
--- TABELA: Pessoa Física
 CREATE TABLE Pessoa_Fisica (
     ID_Cliente INT PRIMARY KEY,
     CPF CHAR(11) UNIQUE NOT NULL,
@@ -19,7 +16,6 @@ CREATE TABLE Pessoa_Fisica (
     FOREIGN KEY (ID_Cliente) REFERENCES Cliente(ID_Cliente) ON DELETE CASCADE
 );
 
--- TABELA: Pessoa Jurídica
 CREATE TABLE Pessoa_Juridica (
     ID_Cliente INT PRIMARY KEY,
     CNPJ CHAR(14) UNIQUE NOT NULL,
@@ -28,7 +24,6 @@ CREATE TABLE Pessoa_Juridica (
     FOREIGN KEY (ID_Cliente) REFERENCES Cliente(ID_Cliente) ON DELETE CASCADE
 );
 
--- TABELA: Email
 CREATE TABLE Email (
     ID_Email SERIAL PRIMARY KEY,
     ID_Cliente INT NOT NULL,
@@ -36,7 +31,6 @@ CREATE TABLE Email (
     FOREIGN KEY (ID_Cliente) REFERENCES Cliente(ID_Cliente) ON DELETE CASCADE
 );
 
--- TABELA: Telefone
 CREATE TABLE Telefone (
     ID_Telefone SERIAL PRIMARY KEY,
     ID_Cliente INT NOT NULL,
@@ -45,7 +39,6 @@ CREATE TABLE Telefone (
     FOREIGN KEY (ID_Cliente) REFERENCES Cliente(ID_Cliente) ON DELETE CASCADE
 );
 
--- TABELA: CEP
 CREATE TABLE CEP (
     CEP CHAR(8) PRIMARY KEY,
     Bairro VARCHAR(100) NOT NULL,
@@ -53,7 +46,6 @@ CREATE TABLE CEP (
     Estado CHAR(2) NOT NULL
 );
 
--- TABELA: Endereco
 CREATE TABLE Endereco (
     ID_Endereco SERIAL PRIMARY KEY,
     ID_Cliente INT NOT NULL,
@@ -65,7 +57,6 @@ CREATE TABLE Endereco (
     FOREIGN KEY (CEP) REFERENCES CEP(CEP)
 );
 
--- TABELA: Produtos
 CREATE TABLE Produtos (
     ID_Produto SERIAL PRIMARY KEY,
     Produto VARCHAR(100) NOT NULL,
@@ -73,10 +64,9 @@ CREATE TABLE Produtos (
     Categoria VARCHAR(50),
     Codigo_Barras VARCHAR(20) UNIQUE,
     Validade DATE,
-    Marca VARCHAR(50)
+    Tarja VARCHAR(50)
 );
 
--- TABELA: Estoque
 CREATE TABLE Estoque (
     ID_Estoque SERIAL PRIMARY KEY,
     ID_Produto INT NOT NULL,
@@ -84,7 +74,6 @@ CREATE TABLE Estoque (
     FOREIGN KEY (ID_Produto) REFERENCES Produtos(ID_Produto)
 );
 
--- TABELA: Pedidos
 CREATE TABLE Pedidos (
     ID_Pedido SERIAL PRIMARY KEY,
     ID_Cliente INT NOT NULL,
@@ -95,7 +84,6 @@ CREATE TABLE Pedidos (
     FOREIGN KEY (ID_Cliente) REFERENCES Cliente(ID_Cliente)
 );
 
--- TABELA: Vendas (associativa entre Pedidos e Produtos)
 CREATE TABLE Vendas (
     ID_Pedido INT NOT NULL,
     ID_Produto INT NOT NULL,
