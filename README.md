@@ -10,10 +10,6 @@ O sistema foi modelado até a 3° Forma Normal e implementado com comandos DDL, 
  ┣ 📜 ddl_farmacia.sql
  ┣ 📜 dml_farmacia.sql
  ┗ 📜 dql_consultas.sql
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1uTnBYE4h1zPL2PExB1Rc3x79bp4nmj5u" width="150px">
-</p>
-
 
 
 ```
@@ -40,7 +36,7 @@ O sistema foi modelado até a 3° Forma Normal e implementado com comandos DDL, 
 ### 1. Clone este repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/Joao-Pedro-Matias/PROJ-DADOS.git
 cd seu-repositorio
 ```
 
@@ -57,28 +53,24 @@ cd seu-repositorio
 
 ## 📊 Consultas DQL disponíveis
 
-- Produtos mais vendidos
-- Total de vendas por cliente
-- Estoque baixo
-- Clientes com múltiplos e-mails
-- Relatório detalhado de um pedido
-- Produtos comprados por cliente
-- Vendas por data
-- Faturamento por categoria
-- Ranking de clientes que mais gastaram
-- Lista de e-mails dos clientes
+- Produtos mais vendidos;
+- Total gasto por cliente (PF e PJ);
+- Estoque;
+- Email dos clientes;
+- Consulta detalhada de um pedido;
+- Produtos comprados por cliente;
+- Vendas por data;
+- Receita gerada de acordo com a categoria de produto;
+- Total de pedidos por cliente.
 
 ---
 
 ## 📧 Contato
 
 Desenvolvido por **Cauã Mesquita**  
-📍 Itu - SP  
-📫 Email: caua.seuemail@email.com
+                 **Lucas Ianovski** 
+                 **João Matias** 
+                 **Caique Tessaroto** 
+📍 Sorocaba - SP  
 
 ---
-
-## 🏆 Observações
-
-Esse projeto foi desenvolvido para fins acadêmicos no curso de Análise e Desenvolvimento de Sistemas – SENAI.  
-A estrutura atende aos critérios de normalização, documentação e organização exigidos para avaliação.
