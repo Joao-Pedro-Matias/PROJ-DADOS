@@ -7,9 +7,9 @@ O sistema foi modelado até a 3° Forma Normal e implementado com comandos DDL, 
 
 ```
 📦SQL/
- ┣ 📜 ddl_farmacia.sql
- ┣ 📜 dml_farmacia.sql
- ┗ 📜 dql_consultas.sql
+ ┣ 📜 01_ddl_create_tables.sql
+ ┣ 📜 02_dml_insert_data.sql
+ ┗ 📜 03_dql_queries.sql
 
 
 ```
