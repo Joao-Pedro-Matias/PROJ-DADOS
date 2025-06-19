@@ -16,9 +16,9 @@ O sistema foi modelado até a 3° Forma Normal e implementado com comandos DDL, 
 
 ## 📋 Conteúdo
 
-- `ddl_farmacia.sql` → Criação de todas as tabelas do banco (clientes, produtos, estoque, pedidos etc.)
-- `dml_farmacia.sql` → Inserção de dados iniciais (clientes PF e PJ, produtos, vendas etc.)
-- `dql_consultas.sql` → Consultas SQL úteis (relatórios de vendas, produtos mais vendidos, clientes com mais gastos etc.)
+- `01_ddl_create_tables.sql` → Criação de todas as tabelas do banco (clientes, produtos, estoque, pedidos etc.)
+- `02_dml_insert_data.sql` → Inserção de dados iniciais (clientes PF e PJ, produtos, vendas etc.)
+- `03_dql_queries.sql` → Consultas SQL úteis (relatórios de vendas, produtos mais vendidos, clientes com mais gastos etc.)
 - `https://drive.google.com/file/d/1uTnBYE4h1zPL2PExB1Rc3x79bp4nmj5u/view?usp=sharing ` → Diagrama Entidade-Relacionamento do sistema.
 
 ---
