@@ -10,7 +10,7 @@ O sistema foi modelado até a 3° Forma Normal e implementado com comandos DDL, 
  ┣ 📜 ddl_farmacia.sql
  ┣ 📜 dml_farmacia.sql
  ┣ 📜 dql_consultas.sql
- ┗ 📜 ![senai_logo](https://transparencia.sp.senai.br/Content/img/logo-senai.png)
+ ┗ 📜 ![imagem-DER] (https://drive.google.com/file/d/1uTnBYE4h1zPL2PExB1Rc3x79bp4nmj5u/view?usp=sharing)
 
 
 ```
@@ -20,7 +20,7 @@ O sistema foi modelado até a 3° Forma Normal e implementado com comandos DDL, 
 - `ddl_farmacia.sql` → Criação de todas as tabelas do banco (clientes, produtos, estoque, pedidos etc.)
 - `dml_farmacia.sql` → Inserção de dados iniciais (clientes PF e PJ, produtos, vendas etc.)
 - `dql_consultas.sql` → Consultas SQL úteis (relatórios de vendas, produtos mais vendidos, clientes com mais gastos etc.)
-- `modelo_erd.png` → Diagrama Entidade-Relacionamento do sistema.
+- `Diagrama-ER` → Diagrama Entidade-Relacionamento do sistema.
 
 ---
 
