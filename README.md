@@ -10,7 +10,7 @@ O sistema foi modelado até a 3° Forma Normal e implementado com comandos DDL, 
  ┣ 📜 ddl_farmacia.sql
  ┣ 📜 dml_farmacia.sql
  ┣ 📜 dql_consultas.sql
- ┗ 📜 ![imagem-DER] (https://drive.google.com/file/d/1uTnBYE4h1zPL2PExB1Rc3x79bp4nmj5u/view?usp=sharing)
+ ┗ 📜 ![Logo do GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
 
 ```
