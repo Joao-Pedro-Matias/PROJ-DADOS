@@ -10,7 +10,8 @@ O sistema foi modelado até a 3° Forma Normal e implementado com comandos DDL, 
  ┣ 📜 ddl_farmacia.sql
  ┣ 📜 dml_farmacia.sql
  ┣ 📜 dql_consultas.sql
- ┗ 📜 ![image](https://github.com/user-attachments/assets/08b7c21a-c13f-4dbf-8b2a-afb99299705e)
+ ┗ 📜 ![senai_logo](https://transparencia.sp.senai.br/Content/img/logo-senai.png)
+
 
 ```
 
