@@ -9,8 +9,11 @@ O sistema foi modelado até a 3° Forma Normal e implementado com comandos DDL, 
 📦SQL/
  ┣ 📜 ddl_farmacia.sql
  ┣ 📜 dml_farmacia.sql
- ┣ 📜 dql_consultas.sql
- ┗ 📜 ![Logo do GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+ ┗ 📜 dql_consultas.sql
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1uTnBYE4h1zPL2PExB1Rc3x79bp4nmj5u" width="150px">
+</p>
+
 
 
 ```
@@ -20,7 +23,7 @@ O sistema foi modelado até a 3° Forma Normal e implementado com comandos DDL, 
 - `ddl_farmacia.sql` → Criação de todas as tabelas do banco (clientes, produtos, estoque, pedidos etc.)
 - `dml_farmacia.sql` → Inserção de dados iniciais (clientes PF e PJ, produtos, vendas etc.)
 - `dql_consultas.sql` → Consultas SQL úteis (relatórios de vendas, produtos mais vendidos, clientes com mais gastos etc.)
-- `Diagrama-ER` → Diagrama Entidade-Relacionamento do sistema.
+- `https://drive.google.com/file/d/1uTnBYE4h1zPL2PExB1Rc3x79bp4nmj5u/view?usp=sharing ` → Diagrama Entidade-Relacionamento do sistema.
 
 ---
 
