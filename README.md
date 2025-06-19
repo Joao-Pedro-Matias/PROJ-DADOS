@@ -45,9 +45,9 @@ cd seu-repositorio
 1. **Abra o pgAdmin**.
 2. Crie um novo banco 
 3. Execute os arquivos:
-   - `ddl_farmacia.sql` para criar as tabelas.
-   - `dml_farmacia.sql` para popular com dados fictícios.
-   - `dql_consultas.sql` para testar consultas e gerar relatórios.
+   - `01_ddl_create_tables.sql` para criar as tabelas.
+   - `02_dml_insert_data.sql` para popular com dados fictícios.
+   - `03_dql_queries.sql` para testar consultas e gerar relatórios.
 
 ---
 
