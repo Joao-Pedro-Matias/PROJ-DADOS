@@ -67,10 +67,10 @@ cd seu-repositorio
 
 ## 📧 Contato
 
-Desenvolvido por **Cauã Mesquita**  
-                 **Lucas Ianovski** 
-                 **João Matias** 
-                 **Caique Tessaroto** 
+Desenvolvido por **Cauã Mesquita, **  
+                 **Lucas Ianovski, ** 
+                 **João Matias, ** 
+                 **Caique Tessaroto.** 
 📍 Sorocaba - SP  
 
 ---
